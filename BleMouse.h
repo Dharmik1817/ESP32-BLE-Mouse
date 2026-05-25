@@ -35,8 +35,8 @@ public:
   bool isConnected(void);
   void setBatteryLevel(uint8_t level);
   uint8_t batteryLevel;
-  std::string deviceManufacturer;
-  std::string deviceName;
+  string deviceManufacturer;
+  string deviceName;
 protected:
   virtual void onStarted(BLEServer *pServer) { };
 };
